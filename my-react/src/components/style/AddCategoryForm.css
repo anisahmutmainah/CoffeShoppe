@@ -1,0 +1,93 @@
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container Styling */
+.add-category-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Pastikan padding tidak mengganggu ukuran */
+}
+
+.add-category-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Membuat elemen di dalam group vertikal */
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+    transition: border-color 0.3s ease;
+    width: 100%; /* Pastikan lebar input mengikuti container */
+    box-sizing: border-box; /* Hindari pengaruh padding pada width */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Textarea Styling */
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button Styling */
+.submit-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .add-category-form {
+        padding: 15px;
+    }
+
+    .add-category-form h2 {
+        font-size: 20px;
+    }
+}

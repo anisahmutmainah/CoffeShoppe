@@ -1,0 +1,93 @@
+.edit-product-form {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f9f9f9;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.edit-product-form h1 {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.edit-product-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+.edit-product-form input,
+.edit-product-form textarea,
+.edit-product-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.edit-product-form input:focus,
+.edit-product-form select:focus,
+.edit-product-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    background-color: #fefefe;
+}
+
+.edit-product-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.edit-product-form .image-preview {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edit-product-form .image-preview img {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.edit-product-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-product-form button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.edit-product-form button:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+}
